@@ -38,6 +38,8 @@ We would suggest spending no more than one hour on this task.
 
 *Please note, there are multiple ways to approach the task and that the sample answer is just one way to do it.*
 
+---
+
 ## 2: Exploratory Data Analysis & Data Cleaning
 Understanding business through data
 
@@ -53,16 +55,29 @@ The data that was sent over includes:
 
 These datasets are otherwise identical and have historical price data and customer data (including churn status for the customers in the training data).
 
-Please submit your data as code script or a PDF version of the script/notebook. We recommend spending no more than 1.5 hours on this task.
+We recommend spending no more than 1.5 hours on this task.
 
 *Please note, there are multiple ways to approach the task and that the sample answer is just one way to do it.*
 
 **Objectives:**
 
-**Sub-Task 1:**
+* **Sub-Task 1:** Clean the data – you might have to address missing values, duplicates, data type conversions, transformations, and multicolinearity, as well as outliers.
 
-Clean the data – you might have to address missing values, duplicates, data type conversions, transformations, and multicolinearity, as well as outliers.
+* **Sub-Task 2:** Perform some exploratory data analysis. Look into the data types, data statistics, and identify any missing data or null values, and how often they appear in the data. Visualize specific parameters as well as variable distributions.
 
-**Sub-Task 2:**
+---
 
-Perform some exploratory data analysis. Look into the data types, data statistics, and identify any missing data or null values, and how often they appear in the data. Visualize specific parameters as well as variable distributions.
+## 3: Feature Engineering
+Uncovering signals with data
+
+The team now has a good understanding of the data and feels confident to use the data to further understand the business problem. The team now needs to brainstorm and build out features to uncover signals in the data that could inform the churn model.
+
+Feature engineering is one of the keys to unlocking predictive insight through mathematical modeling. Based on the data that is available and was cleaned, identify what you think could be drivers of churn for our client and build those features to later use in your model.
+
+**Objectives:**
+
+We’ve included some pre-written functions to help you focus on your analysis as opposed to programming syntax.
+
+* **Sub-task 1:** Think through what key drivers of churn could be for our client
+
+* **Sub-task 2:** Build the features in order to get ready to model
