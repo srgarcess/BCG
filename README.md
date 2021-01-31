@@ -81,3 +81,26 @@ We’ve included some pre-written functions to help you focus on your analysis a
 * **Sub-task 1:** Think through what key drivers of churn could be for our client
 
 * **Sub-task 2:** Build the features in order to get ready to model
+
+---
+
+## 4: Modeling & Evaluation
+Modeling the problem and evaluating the model
+
+**Background information on task 4**
+
+Recall that one of the hypotheses under consideration is that churn is driven by the customers’ price sensitivities and that it would be possible to predict customers likely to churn using a predictive model.
+
+The client also wants to try a discounting strategy, with the head of the SME division suggesting that offering customers at high propensity to churn a 20% discount might be effective.
+
+Build your models and test them while keeping in mind you would need data to prove/disprove the hypotheses, as well as to test the effect of a 20% discount on customers at high propensity to churn.
+
+**Objectives:**
+
+* <b>Sub-Task 1:</b> Build churn model(s) to try to predict the churn probability of any customer, taking into account all the explanatory variables you have constructed in the feature engineering process.
+
+* <b>Sub-Task 2:</b> Evaluate your model, using a holdout set, and with metrics of your choosing. Be sure to pick a metric that would make sense for this business case.
+
+* <b>Sub-Task 3:</b> Interpret the results and use them to formulate your answers to the client’s hypotheses and questions. You will be asked to form these answers into coherent thoughts and recommendations in the next module.
+
+<i>Please note, there are multiple ways to approach the task and that the sample answer is just one way to do it.</i>
